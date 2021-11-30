@@ -1,0 +1,11 @@
+.section_1{
+    border:3px solid pink;
+}
+
+.main_img{
+    width: 100%;
+    height: 50vh;
+    background-image: url('/asset/shelters/main-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -2,7 +2,7 @@
   "name": "onboardtesting_bella",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3100",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -15,8 +15,9 @@
   "devDependencies": {
     "@types/node": "16.11.10",
     "@types/react": "17.0.37",
-    "eslint": "7",
+    "eslint": "^8.3.0",
     "eslint-config-next": "12.0.4",
+    "prettier": "^2.5.0",
     "typescript": "4.5.2"
   }
 }
