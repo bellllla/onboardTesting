@@ -1,0 +1,11 @@
+.section_3 {
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Roboto Thin';
+}
+
+.click_button {
+  font-size: 20px;
+  color: #474747;
+}

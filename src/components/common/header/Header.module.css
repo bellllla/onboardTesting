@@ -1,0 +1,8 @@
+.header_container{
+    height: 100px;
+    padding : 20px;
+    box-sizing: border-box;
+}
+.header_container h3 {
+    font-size : 32px;
+}
