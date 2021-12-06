@@ -1,28 +1,32 @@
+
+@import '../../styles/variables.module.scss';
+
 .section_2{
     border-bottom: 2px solid rgb(211, 211, 211);
     padding : 20px;
     box-sizing: border-box;
 }
 .section_2 p:nth-child(1) {
-  color : #696969;
+  color : $subtext-color;
   font-size: 14px;
 }
 .section_2 h1 {
   font-family: "Roboto Bold";
-  color : #474747;
+  color : $primarytext-color;
 }
 .section_2 ul li {
-  color : #474747;
+  color :  $primarytext-color;
   padding : 20px 10px; 
   margin : 0;
   height: 50px;
   /* box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%); */
   border-radius: 8px;
   cursor: pointer;
+  font-size: $medium-font;
 }
 .section_2 ul li:hover {
   transition: all 0.3s;
-  font-size: 18px;
+  font-size: 19px;
   /* transform: scale(1.1); */
 }
 
@@ -38,7 +42,6 @@
   @media (max-width: 600px) {
     .flex_grid  {
       flex-direction: column;
-      align-items: flex-start;
     }
   }
   

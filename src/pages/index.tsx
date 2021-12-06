@@ -3,7 +3,7 @@ import ImgContainer from '../components/imgContainer/ImgContainer';
 import ContentsContainer from '../components/contentsContainer/ContentsContainer';
 import ClickContainer from '../components/clickContainer/ClickContainer';
 import type { NextPage } from 'next';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 import ShowImgModal from '../components/common/modal/ShowImgModal';
 
 const Home: NextPage = () => {

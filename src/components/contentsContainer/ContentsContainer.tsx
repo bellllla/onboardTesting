@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ContentsContainer.module.css';
+import styles from './ContentsContainer.module.scss';
 
 function ContentContainer({}) {
 

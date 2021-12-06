@@ -13,6 +13,7 @@ module.exports = {
 		"@storybook/addon-actions",
   ],
   "framework": "@storybook/react",
+  "typescript": { "reactDocgen": false },
 
   webpackFinal: async (config, { configType }) => {
 

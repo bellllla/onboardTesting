@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from './ShowImgModal.module.css';
+import styles from './ShowImgModal.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 
 interface Props {
-  setOpenModal: boolean;
+  setOpenModal : boolean;
 }
 
-function ShowImgModal({ setOpenModal }: Props) {
+function ShowImgModal({ setOpenModal }: Props):JSX.Element {
   const closeModal = () => {
     setOpenModal(false);
   };

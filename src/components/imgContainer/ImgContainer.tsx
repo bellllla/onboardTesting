@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import styles from './ImgContainer.module.css';
+import styles from './ImgContainer.module.scss';
 
 interface Props {
   showImgHandler: any;

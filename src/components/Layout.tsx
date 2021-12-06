@@ -2,7 +2,7 @@ import React from 'react';
 // nav || footer 와 같이 공통적으로 있어야 하는 부분을 감싸는 컴포넌트.
 import Head from 'next/head';
 import Header from './common/header/Header';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 import Footer from './common/footer/Footer';
 
 function Layout({ children }: any): JSX.Element {
